@@ -1,0 +1,7 @@
+---
+deployment:
+ tasks:
+  - export DEPLOYPATH=/home/zfcphkbyusep/public_html/
+  - /bin/rm -Rf $DEPLOYPATH
+  - /bin/mkdir $DEPLOYPATH
+  - /bin/cp -R * $DEPLOYPATH
