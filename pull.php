@@ -1,4 +1,5 @@
 <?php 
+    shell_exec( 'git reset --hard' );
     shell_exec( 'git pull' );
     // Make an api call too to keep heroku dyno alive 
     $ch = curl_init();
